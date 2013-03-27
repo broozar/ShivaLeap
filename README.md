@@ -22,16 +22,15 @@ You will need to acquire the following items
 
 ##Adding Leap SDKs
 
-The Leap SDKs are not included in this repository.  To compile successfully you need to create a Leap_SDK folder under Plugins\com_synapticbytes_sbLeap\Sources\.  Place the following in this folder:
+The Leap SDKs are not included in this repository.  To compile successfully you need to add files to the Leap_SDK folder located in Plugins\com_synapticbytes_sbLeap\Sources\.  Copy the contents from -> to:
 
-* The *include* directory from the Leap SDK
-* The contents of the *x86/libs* or *x64/libs* folder from the Leap SDK libs folder
+* <Leap SDK *include* folder> **->** Leap_SDK\include\
+* <Leap SDK x86\libs folder>  **->** Leap_SDK\libs\
 
 When finished you should have content in the following folders:
 
-Plugins\com_synapticbytes_sbLeap\Sources\Leap_SDK\include\
-
-Plugins\com_synapticbytes_sbLeap\Sources\Leap_SDK\libs\
+* Plugins\com_synapticbytes_sbLeap\Sources\Leap_SDK\include\
+* Plugins\com_synapticbytes_sbLeap\Sources\Leap_SDK\libs\
 
 ##The ShiVa 3D Sample Projects
 The 2 sample projects were made using ShiVa 3D 1.9.2 beta 4.  This means that the project files will not be compatible with older versions of ShiVa.
