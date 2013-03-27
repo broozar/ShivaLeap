@@ -24,8 +24,8 @@ You will need to acquire the following items
 
 The Leap SDKs are not included in this repository.  To compile successfully you need to add files to the Leap_SDK folder located in Plugins\com_synapticbytes_sbLeap\Sources\.  Copy the contents from -> to:
 
-* <Leap SDK *include* folder> **->** Leap_SDK\include\
-* <Leap SDK x86\libs folder>  **->** Leap_SDK\libs\
+* [Leap SDK *include* folder] **->** Leap_SDK\include\
+* [Leap SDK x86\libs folder]  **->** Leap_SDK\libs\
 
 When finished you should have content in the following folders:
 
