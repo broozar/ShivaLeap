@@ -1,6 +1,18 @@
-/Build/
-*.ipch
+#Visual studio junk
+*.sdf
 *.suo
+*.ncb
+*.ipch
 *.a
-*.ccz
 
+#Shiva
+Build/*
+Plugins/com_synapticbytes_sbLeap/Temp/*
+Plugins/com_synapticbytes_sbLeap/Temp/*
+Plugins/com_synapticbytes_sbLeap/Sources/Leap_SDK/*
+S3DXAndroidTools.jar
+*.bak
+*/Thumbnails/*
+*.ipch
+*.ccz
+Project.cfg
