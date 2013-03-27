@@ -7,9 +7,6 @@
 
 #Shiva
 Build/*
-Plugins/com_synapticbytes_sbLeap/Temp/*
-Plugins/com_synapticbytes_sbLeap/Temp/*
-Plugins/com_synapticbytes_sbLeap/Sources/Leap_SDK/*
 S3DXAndroidTools.jar
 *.bak
 */Thumbnails/*
