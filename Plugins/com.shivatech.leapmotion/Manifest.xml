@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+	<plugin name="leapmotion" version="2.2.4" s3dx_sdk_version="0x1090200">
+
+		<info>
+			<description></description>
+			<author>
+				<name>Felix Caffier</name>
+				<mail>broozar@web.de</mail>
+				<site>http://www.trisymphony.com</site>
+			</author>
+		</info>
+
+		<certificate></certificate>
+
+		<files>
+			<platform type="Windows">
+				<arch type="x86_32">leapmotion_Windows32.dll</arch>
+				<arch type="x86_64">leapmotion_Windows64.dll</arch>
+			</platform>
+
+			<platform type="WinRT">
+				<arch type="x86_32">leapmotion_WinRT_x86_32.dll</arch>
+				<arch type="x86_64">leapmotion_WinRT_x86_64.dll</arch>
+			</platform>
+
+			<platform type="Mac">
+				<arch type="x86_32">leapmotion_Mac.dylib</arch>
+				<arch type="x86_64">leapmotion_Mac.dylib</arch>
+			</platform>
+
+			<platform type="Linux">
+				<arch type="x86_64">leapmotion_Linux64.so</arch>
+			</platform>
+			
+		</files>
+	</plugin>
+</manifest>
